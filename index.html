@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Bysani Mohith Kumar - ECE Student at VFSTR, former Intern at Schneider Electric India. Projects in UAVs, Speed Breaker Electricity Generation, Digital Electronics & Circuit Design." />
+  <meta name="keywords" content="Bysani Mohith Kumar, ECE, Electronics and Communication Engineering, Vignan University, Schneider Electric, Portfolio, Cadence Virtuoso, MATLAB, UAV, Speed Breaker Electricity, Sensors" />
+  <meta name="author" content="Bysani Mohith Kumar" />
+  
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:title" content="Bysani Mohith Kumar | ECE Student &amp; Aspiring Engineer" />
+  <meta property="og:description" content="Explore my engineering projects in UAVs, renewable kinetic energy, digital circuit design, and technical certifications." />
+  <meta property="og:type" content="website" />
+  
+  <title>Bysani Mohith Kumar | ECE Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Bysani Mohith Kumar Home">
+        <span class="logo-text">B. Mohith Kumar<span class="logo-accent">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Timeline</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle, Phone Link & Contact CTA) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Direct Contact / Call Button -->
+        <a href="tel:+918333879474" class="btn btn-outline nav-resume-btn" title="Call Bysani Mohith Kumar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>Call</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="mobile-toggle-btn" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Open to Internships &amp; Entry-Level Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Bysani Mohith Kumar</span>.
+            <br />ECE Student &bull; Circuit &amp; Tech Enthusiast.
+          </h1>
+
+          <p class="hero-subtitle">
+            Electronics and Communication Engineering student at Vignan's Foundation for Science, Technology &amp; Research (VFSTR). Former intern at Schneider Electric with hands-on experience in circuit design, UAV concepts, MATLAB, and digital systems.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Quick Contact Badges -->
+          <div class="hero-socials">
+            <span class="socials-label">Direct Reach:</span>
+            <div class="social-links">
+              <a href="mailto:bysanimohithkumar@gmail.com" class="social-icon" aria-label="Email bysanimohithkumar@gmail.com" title="bysanimohithkumar@gmail.com">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+              <a href="tel:+918333879474" class="social-icon" aria-label="Call +91 8333879474" title="+91 8333879474">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </a>
+              <a href="https://wa.me/918333879474" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp Message" title="Chat on WhatsApp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Visual Card -->
+        <div class="hero-visual">
+          <div class="avatar-card">
+            <div class="avatar-wrapper">
+              <img src="./assets/img/BMK.jpeg" alt="Bysani Mohith Kumar" class="avatar-img" />
+            </div>
+            <div class="avatar-meta">
+              <div class="meta-item">
+                <span class="meta-label">Degree</span>
+                <span class="meta-val">B.Tech ECE (VFSTR)</span>
+              </div>
+              <div class="meta-divider"></div>
+              <div class="meta-item">
+                <span class="meta-label">Timeline</span>
+                <span class="meta-val">2024 &ndash; 2027</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by engineering curiosity &amp; innovative design.</h2>
+          <p class="section-description">A snapshot of my background, academic excellence, industrial training, and aspirations.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio Story -->
+          <div class="about-story-card">
+            <h3 class="card-title">My Journey &amp; Objective</h3>
+            <p>
+              I am a motivated and enthusiastic <strong>Electronics and Communication Engineering (ECE)</strong> student currently pursuing my Bachelor of Technology at <strong>Vignan's Foundation for Science, Technology &amp; Research (VFSTR)</strong>.
+            </p>
+            <p>
+              My academic trajectory began with a perfect <strong>10.0 GPA in SSC</strong>, followed by a <strong>Diploma in ECE (7.8 CGPA)</strong> from St. Ann's College of Engineering and Technology, giving me a solid foundation in electronic circuitry, analog/digital design, and hands-on laboratory experimentation.
+            </p>
+            <p>
+              During my industrial internship at <strong>Schneider Electric India Pvt. Ltd.</strong>, I gained rigorous exposure to machine assembly, Air Circuit Breakers (ACB), test bench verification, and customer connection architectures. I am passionate about blending hardware circuit design, sensor technology, and software development concepts to build impactful real-world engineering solutions.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-num">10.0</span>
+                <span class="highlight-desc">SSC Perfect GPA</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-num">7.8</span>
+                <span class="highlight-desc">Diploma ECE CGPA</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-num">2x</span>
+                <span class="highlight-desc">Hackathon &amp; Expo Winner</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Info Cards -->
+          <div class="about-cards-wrapper">
+            <div class="info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="info-title">Academic Institution</h4>
+                <p class="info-text">Vignan's Foundation for Science, Technology &amp; Research (VFSTR)</p>
+                <span class="info-sub">B.Tech in ECE &bull; CGPA: 7.5 (2024&ndash;2027)</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="info-title">Industrial Exposure</h4>
+                <p class="info-text">Schneider Electric India Pvt. Ltd. &bull; Machine Assembly, Air Circuit Breaker test bench operations.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div>
+                <h4 class="info-title">Leadership &amp; Collaboration</h4>
+                <p class="info-text">Co-Coordinator in AP Space Summit 2026 with ISRO &bull; 3rd Place Smart India Hackathon VFSTR.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Tech Stack Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Toolkit</span>
+          <h2 class="section-title">Technical Skills &amp; Competencies</h2>
+          <p class="section-description">A breakdown of my engineering capabilities across digital electronics, simulation environments, and foundational tech.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Digital Electronics & Circuit Design -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">&#9889;</span>
+              <h3 class="category-title">Electronics &amp; Hardware</h3>
+            </div>
+            <div class="pill-group">
+              <span class="tech-pill">Digital Electronics</span>
+              <span class="tech-pill">Circuit Design</span>
+              <span class="tech-pill">Sensors &amp; Actuators</span>
+              <span class="tech-pill">Machine Assembly</span>
+              <span class="tech-pill">Air Circuit Breakers (ACB)</span>
+              <span class="tech-pill">Test Bench Verification</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Simulation & Engineering Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">&lt;/&gt;</span>
+              <h3 class="category-title">Simulation &amp; CAD Environments</h3>
+            </div>
+            <div class="pill-group">
+              <span class="tech-pill">MATLAB</span>
+              <span class="tech-pill">Cadence (Virtuoso)</span>
+              <span class="tech-pill">Circuit Simulation</span>
+              <span class="tech-pill">Hardware Prototyping</span>
+              <span class="tech-pill">Signal Analysis</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Software & Web Fundamentals -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">&#9638;</span>
+              <h3 class="category-title">Software Concepts &amp; Web</h3>
+            </div>
+            <div class="pill-group">
+              <span class="tech-pill">Software Dev Concepts</span>
+              <span class="tech-pill">C Programming Basics</span>
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3</span>
+              <span class="tech-pill">JavaScript Basics</span>
+              <span class="tech-pill">Problem-Solving</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Professional Strengths & Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">&#10003;</span>
+              <h3 class="category-title">Strengths &amp; Languages</h3>
+            </div>
+            <div class="pill-group">
+              <span class="tech-pill">Time Management</span>
+              <span class="tech-pill">Teamwork</span>
+              <span class="tech-pill">Adaptability</span>
+              <span class="tech-pill">Quick Learner</span>
+              <span class="tech-pill">English (R/W/S)</span>
+              <span class="tech-pill">Telugu (R/W/S)</span>
+              <span class="tech-pill">Hindi (R/S)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Timeline Section -->
+    <section class="section timeline-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Trajectory</span>
+          <h2 class="section-title">Education &amp; Experience Timeline</h2>
+          <p class="section-description">My chronological journey through secondary schooling, diploma, undergraduate engineering, and industrial internship.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Timeline Item 1: B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">2024 &ndash; 2027 (Pursuing)</span>
+                <span class="timeline-badge school-badge">Undergraduate</span>
+              </div>
+              <h3 class="timeline-role">B.Tech in Electronics &amp; Communication Engineering (ECE)</h3>
+              <h4 class="timeline-org">Vignan's Foundation for Science, Technology &amp; Research (VFSTR)</h4>
+              <p class="timeline-desc">
+                <strong>Current Status:</strong> Pursuing &bull; <strong>CGPA:</strong> 7.5<br />
+                Focusing on advanced digital electronics, Cadence Virtuoso IC design, MATLAB modeling, UAV development, and participating in national hackathons and science expos.
+              </p>
+              <div class="timeline-tags">
+                <span>Digital Electronics</span>
+                <span>Cadence Virtuoso</span>
+                <span>MATLAB</span>
+                <span>Sensors</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Internship Schneider Electric -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">Industrial Internship</span>
+                <span class="timeline-badge work-badge">Industry Training</span>
+              </div>
+              <h3 class="timeline-role">Technical Intern &ndash; Machine Assembly &amp; Testing</h3>
+              <h4 class="timeline-org">Schneider Electric India Pvt. Ltd.</h4>
+              <p class="timeline-desc">
+                Gained practical hands-on experience in machine assembly processes. Worked in the production and testing of Air Circuit Breakers (ACB) and chassis. Developed core technical competencies in test bench calibration, diagnostic testing, and customer connection interfaces.
+              </p>
+              <div class="timeline-tags">
+                <span>Machine Assembly</span>
+                <span>Air Circuit Breakers</span>
+                <span>Test Bench</span>
+                <span>Quality Verification</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Leadership ISRO Space Summit -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">Event Leadership</span>
+                <span class="timeline-badge academic-badge">Leadership</span>
+              </div>
+              <h3 class="timeline-role">Co-Coordinator &ndash; AP Space Summit 2026</h3>
+              <h4 class="timeline-org">In Collaboration with ISRO</h4>
+              <p class="timeline-desc">
+                Organized and managed student engagement sessions, keynote tracks, and tech presentations on space science, aerospace telemetry, and satellite communications with ISRO dignitaries.
+              </p>
+              <div class="timeline-tags">
+                <span>ISRO</span>
+                <span>Event Coordination</span>
+                <span>Team Leadership</span>
+                <span>Aerospace</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4: Diploma -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">2021 &ndash; 2024 (Completed)</span>
+                <span class="timeline-badge school-badge">Diploma</span>
+              </div>
+              <h3 class="timeline-role">Diploma in Electronics &amp; Communication Engineering</h3>
+              <h4 class="timeline-org">St. Ann's College of Engineering and Technology</h4>
+              <p class="timeline-desc">
+                <strong>Result:</strong> Completed with <strong>7.8 CGPA</strong>.<br />
+                Acquired in-depth fundamentals in semiconductor devices, analog communication systems, digital circuits, electronic instrumentation, and hardware lab practices.
+              </p>
+              <div class="timeline-tags">
+                <span>Analog Circuits</span>
+                <span>Digital Circuits</span>
+                <span>Communication</span>
+                <span>Microprocessors</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 5: SSC -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">2020 &ndash; 2021 (Completed)</span>
+                <span class="timeline-badge school-badge">Schooling</span>
+              </div>
+              <h3 class="timeline-role">Secondary School Certificate (SSC)</h3>
+              <h4 class="timeline-org">Vanaja Chandra Public School</h4>
+              <p class="timeline-desc">
+                <strong>Result:</strong> Graduated with a perfect <strong>10.0 GPA</strong>. Built strong mathematical, scientific, and analytical reasoning foundations.
+              </p>
+              <div class="timeline-tags">
+                <span>10.0 GPA</span>
+                <span>Mathematics</span>
+                <span>Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Selected Works</span>
+          <h2 class="section-title">Engineering Projects</h2>
+          <p class="section-description">Practical engineering designs spanning unmanned aerial vehicles (UAVs), kinetic energy harvesting, and circuit simulations.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="project-filters" role="tablist" aria-label="Project Categories">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+          <button class="filter-btn" data-filter="uav" role="tab" aria-selected="false">UAV &amp; Aerospace</button>
+          <button class="filter-btn" data-filter="energy" role="tab" aria-selected="false">Clean Energy Harvesting</button>
+          <button class="filter-btn" data-filter="simulation" role="tab" aria-selected="false">Circuits &amp; Simulation</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          
+          <!-- Project 1: Trinetra - Survival UAV -->
+          <article class="project-card" data-category="uav" data-project-id="p1">
+            <div class="project-image-wrap">
+              <img src="./assets/img/project-uav.png" alt="Trinetra Survival UAV Concept Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-white view-details-trigger" data-project="p1">Quick Overview</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category-tag">UAV &bull; Emergency Technology</div>
+              <h3 class="project-title">Trinetra &ndash; Survival UAV</h3>
+              <p class="project-summary">
+                Designed and developed a specialized Unmanned Aerial Vehicle (UAV) concept engineered for disaster survival, emergency surveillance, and rapid first-aid telemetry.
+              </p>
+              <div class="project-tech-stack">
+                <span>UAV Design</span>
+                <span>Emergency Telemetry</span>
+                <span>Sensors</span>
+                <span>Flight Dynamics</span>
+              </div>
+              <div class="project-footer">
+                <span class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <span>Survival Concept</span>
+                </span>
+                <button class="btn btn-sm btn-primary view-details-trigger" data-project="p1">
+                  <span>View Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Speed Breaker - Rolling Mechanism -->
+          <article class="project-card" data-category="energy" data-project-id="p2">
+            <div class="project-image-wrap">
+              <img src="./assets/img/project-energy.png" alt="Rolling Speed Breaker Energy Generator Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-white view-details-trigger" data-project="p2">Quick Overview</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category-tag">Renewable Energy &bull; Mechanics</div>
+              <h3 class="project-title">Speed Breaker Electricity &ndash; Rolling Mechanism</h3>
+              <p class="project-summary">
+                Engineered a mechanical roller mechanism embedded in speed breakers to harvest rotational kinetic energy from passing vehicular traffic to produce clean electricity.
+              </p>
+              <div class="project-tech-stack">
+                <span>Roller Mechanism</span>
+                <span>Dynamo Generator</span>
+                <span>Kinetic Energy</span>
+                <span>Power Systems</span>
+              </div>
+              <div class="project-footer">
+                <span class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>Clean Energy</span>
+                </span>
+                <button class="btn btn-sm btn-primary view-details-trigger" data-project="p2">
+                  <span>View Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Speed Breaker - Gear Mechanism -->
+          <article class="project-card" data-category="energy" data-project-id="p3">
+            <div class="project-image-wrap">
+              <img src="./assets/img/project-gear.png" alt="Gear Speed Breaker Power Generator Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-white view-details-trigger" data-project="p3">Quick Overview</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category-tag">Kinetic Harvesting &bull; Power Gen</div>
+              <h3 class="project-title">Speed Breaker Electricity &ndash; Gear Mechanism</h3>
+              <p class="project-summary">
+                Developed a high-efficiency rack, pinion, and spur gear assembly converting downward vehicular impulse pressure into continuous rotational energy for electrical dynamos.
+              </p>
+              <div class="project-tech-stack">
+                <span>Rack &amp; Pinion</span>
+                <span>Spur Gears</span>
+                <span>Torque Transfer</span>
+                <span>Energy Storage</span>
+              </div>
+              <div class="project-footer">
+                <span class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                    <polyline points="17 6 23 6 23 12"></polyline>
+                  </svg>
+                  <span>High Efficiency</span>
+                </span>
+                <button class="btn btn-sm btn-primary view-details-trigger" data-project="p3">
+                  <span>View Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Cadence & MATLAB Circuit Simulations -->
+          <article class="project-card" data-category="simulation" data-project-id="p4">
+            <div class="project-image-wrap">
+              <img src="./assets/img/project-circuit.png" alt="Cadence Virtuoso and MATLAB Circuit Simulation Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-white view-details-trigger" data-project="p4">Quick Overview</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category-tag">CAD &bull; Digital Electronics</div>
+              <h3 class="project-title">Cadence &amp; MATLAB Circuit Simulations</h3>
+              <p class="project-summary">
+                Simulation and performance validation of analog and digital electronic circuits using Cadence Virtuoso schematic capture, transient analysis, and MATLAB computational scripts.
+              </p>
+              <div class="project-tech-stack">
+                <span>Cadence Virtuoso</span>
+                <span>MATLAB</span>
+                <span>Digital Logic</span>
+                <span>Circuit Analysis</span>
+              </div>
+              <div class="project-footer">
+                <span class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                  </svg>
+                  <span>EDA Simulation</span>
+                </span>
+                <button class="btn btn-sm btn-primary view-details-trigger" data-project="p4">
+                  <span>View Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Achievements Section -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications &amp; Achievements</h2>
+          <p class="section-description">National certifications from NPTEL, academic honors, hackathon podium placements, and aerospace coordination.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1: NPTEL Sensors and Actuators -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">NPTEL / IIT</span>
+                <span class="cert-date">Certified</span>
+              </div>
+              <h3 class="cert-name">Sensors and Actuators Certification</h3>
+              <p class="cert-details">
+                Focused on physical transducer mechanisms, calibration principles, sensor interfacing, and actuator drive circuits in automation systems.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-id">Field: Sensor Tech &amp; IoT</span>
+                <span class="cert-verify-link">Completed ✓</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2: NPTEL Strategic Management -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">NPTEL / IIT</span>
+                <span class="cert-date">Certified</span>
+              </div>
+              <h3 class="cert-name">Strategic Management</h3>
+              <p class="cert-details">
+                Covers corporate planning, analytical decision-making frameworks, project execution, and business strategy formulation.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-id">Field: Strategy &amp; Planning</span>
+                <span class="cert-verify-link">Completed ✓</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 3: 3rd Place Science Expo VFSTR -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">National Engineer's Day</span>
+                <span class="cert-date">Podium Finish</span>
+              </div>
+              <h3 class="cert-name">3rd Place &ndash; Science Expo (VFSTR)</h3>
+              <p class="cert-details">
+                Secured 3rd place in the prestigious campus-wide Science Expo conducted on National Engineer's Day for innovative project demonstration.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-id">Award: Innovation Showcase</span>
+                <span class="cert-verify-link">3rd Place &#127942;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 4: Smart India Hackathon VFSTR -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-header">
+                <span class="cert-issuer">Smart India Hackathon</span>
+                <span class="cert-date">Podium Finish</span>
+              </div>
+              <h3 class="cert-name">3rd Place &ndash; SIH Internal Round</h3>
+              <p class="cert-details">
+                Awarded 3rd place in the Smart India Hackathon internal university selection conducted at VFSTR for technical prototyping and teamwork.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-id">Event: SIH @ VFSTR</span>
+                <span class="cert-verify-link">3rd Place &#127942;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-description">
+            I am eager to contribute my skills to internship opportunities, entry-level engineering roles, and innovative technical projects. Feel free to reach out directly!
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Channels Info -->
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Let's discuss opportunities</h3>
+            <p class="contact-panel-text">
+              Looking for a motivated ECE student with hands-on industrial and project exposure? Reach out via email, phone, or the contact form.
+            </p>
+
+            <div class="contact-details-list">
+              <!-- Email Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Email Address</span>
+                  <div class="email-copy-wrapper">
+                    <a href="mailto:bysanimohithkumar@gmail.com" id="user-email-text" class="contact-item-value">bysanimohithkumar@gmail.com</a>
+                    <button id="copy-email-btn" class="copy-btn" title="Copy email address" aria-label="Copy email address">
+                      <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                      </svg>
+                      <span class="copy-tooltip" id="copy-tooltip">Copy</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Phone Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Mobile Phone</span>
+                  <a href="tel:+918333879474" class="contact-item-value">+91 8333879474</a>
+                </div>
+              </div>
+
+              <!-- Location Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Location</span>
+                  <span class="contact-item-value">Andhra Pradesh, India &bull; Open to Relocation</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Profiles Grid -->
+            <div class="contact-profiles">
+              <span class="profiles-label">Fast Communication:</span>
+              <div class="profiles-list">
+                <a href="tel:+918333879474" class="profile-badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  <span>Call Directly</span>
+                </a>
+                <a href="https://wa.me/918333879474" target="_blank" rel="noopener noreferrer" class="profile-badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                  <span>WhatsApp</span>
+                </a>
+                <a href="mailto:bysanimohithkumar@gmail.com" class="profile-badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <span>Email</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe / Hiring Manager" required />
+                <span class="form-error" id="name-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. manager@company.com" required />
+                <span class="form-error" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Internship Opportunity / Technical Inquiry" required />
+                <span class="form-error" id="subject-error">Please enter a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-textarea" placeholder="Hi Mohith, I reviewed your ECE projects and wanted to discuss..." required></textarea>
+                <span class="form-error" id="message-error">Please enter your message.</span>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div class="form-status" id="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Details Modal -->
+  <div class="modal-backdrop" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close project modal">&times;</button>
+      <div class="modal-content" id="modal-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="copyright">&copy; <span id="current-year"></span> Bysani Mohith Kumar. All Rights Reserved.</p>
+        <p class="footer-sub">Electronics &amp; Communication Engineering &bull; VFSTR</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
+          <span>Back to top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
